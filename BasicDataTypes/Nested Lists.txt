@@ -1,0 +1,22 @@
+Problem Name: Nested Lists
+
+Link: https://www.hackerrank.com/challenges/nested-list/problem
+
+Solution:
+
+name_k = []
+score_v = []
+temp = []
+tempNames = []
+for _ in range(int(raw_input())):
+    name_k.append(raw_input())
+    score_v.append(float(raw_input()))
+temp = list(dict.fromkeys(score_v))
+temp.sort()
+sec_smallest = temp[1]
+for i in range(len(score_v)):
+    if sec_smallest == score_v[i]:
+        tempNames.append(name_k[i])
+tempNames = sorted(tempNames)
+for j in range(len(tempNames)):
+    print(tempNames[j])

@@ -1,0 +1,27 @@
+Problem Name: Lists
+
+Link: https://www.hackerrank.com/challenges/python-lists/problem
+
+Solution:
+
+if __name__ == '__main__':
+    arr = []
+    n = int(raw_input())
+    student_marks = {}
+    for i in range(n):
+        line = raw_input().split()
+        name, values = line[0], line[1:]
+        if name == 'append':
+            arr.append(int(values[0]))
+        elif name == 'insert':
+            arr.insert(int(values[0]), int(values[1]))
+        elif name == 'sort':
+            arr.sort()
+        elif name == 'pop':
+            arr.pop()
+        elif name == 'reverse':
+            arr.reverse()
+        elif name == 'remove':
+            arr.remove(int(values[0]))
+        elif name == 'print':
+            print(arr)
