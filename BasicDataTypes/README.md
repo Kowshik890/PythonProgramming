@@ -1,4 +1,4 @@
-# List of problems from Basic Data Types (HackerRank)
+# List of problems from '*Basic Data Types*' Section (HackerRank)
 
 ## Problem Links
 
