@@ -16,6 +16,3 @@ if __name__ == '__main__':
     elif largest_value != arr[n-2]:
         print(arr[n-2])
 		
-Soaib:
-
-arr = list(dict.fromkeys(arr)) // erase duplicate values
