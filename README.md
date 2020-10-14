@@ -1,3 +1,3 @@
 # PythonProgramming
 
-**Learning python and in the meanwhile practising python programming by solving HackerRank's problems**
+**Learning and practising python programming by solving HackerRank's problems to improve programming skills.**
