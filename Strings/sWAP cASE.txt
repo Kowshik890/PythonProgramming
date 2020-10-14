@@ -1,4 +1,4 @@
-Problem Name: sWAP cASE
+Problem Name: sWAP cASE 
 
 Link: https://www.hackerrank.com/challenges/swap-case/problem
 
