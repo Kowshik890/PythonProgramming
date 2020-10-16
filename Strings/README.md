@@ -11,3 +11,7 @@
 **4.** [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name/problem)
 
 **5.** [sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem)
+
+**6.** [String Validators](https://www.hackerrank.com/challenges/string-validators/problem)
+
+**7.** [Text Wrap](https://www.hackerrank.com/challenges/text-wrap/problem)
