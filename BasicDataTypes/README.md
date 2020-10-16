@@ -1,6 +1,6 @@
-# List of problems from Basic Data Types (HackerRank)
+# List of problems from '*Basic Data Types*' Section (HackerRank)
 
-## Problem Links
+## Problem Links 
 
 **1.** [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem)
 
