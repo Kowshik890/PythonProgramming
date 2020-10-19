@@ -15,3 +15,9 @@
 **6.** [String Validators](https://www.hackerrank.com/challenges/string-validators/problem)
 
 **7.** [Text Wrap](https://www.hackerrank.com/challenges/text-wrap/problem)
+
+**8.** [Text Alignment](https://www.hackerrank.com/challenges/text-alignment/problem)
+
+**9.** [String Formatting](https://www.hackerrank.com/challenges/python-string-formatting/problem)
+
+**10.** [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat/problem)
