@@ -1,0 +1,15 @@
+Problem Name: Designer Door Mat
+
+Link: https://www.hackerrank.com/challenges/designer-door-mat/problem
+
+Solution:
+
+import math
+n, m = (input().split(' '))
+n, m = int(n), int(m)
+if n * 3 == m:
+    for i in range(1, math.ceil(n/2)):
+        print(('.|.' * ((i * 2)-1)).center(m, '-'))
+    print('WELCOME'.center(m, '-'))
+    for i in range(math.ceil(n/2)-1, 0, -1):
+        print(('.|.' * ((i * 2)-1)).center(m, '-'))
