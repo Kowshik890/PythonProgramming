@@ -1,6 +1,6 @@
 Problem Name: Text Alignment
 
-Link: https://www.hackerrank.com/challenges/text-alignment/submissions/code/184192261
+Link: https://www.hackerrank.com/challenges/text-alignment/problem
 
 Solution:
 
