@@ -1,0 +1,17 @@
+Problem Name: Merge the Tools!
+
+Link: https://www.hackerrank.com/challenges/merge-the-tools/problem
+
+Solution:
+
+def merge_the_tools(string, k):
+    # your code goes here
+	temp = []
+    for i in range(0, len(string), k):
+        temp = (string[i:(k+i)])
+        temp = list(dict.fromkeys(temp))
+        print("".join(temp))
+
+if __name__ == '__main__':
+    string, k = input(), int(input())
+    merge_the_tools(string, k)

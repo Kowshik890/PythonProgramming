@@ -1,0 +1,28 @@
+Problem Name: Alphabet Rangoli
+
+Link: https://www.hackerrank.com/challenges/alphabet-rangoli/problem
+
+Solution:
+
+import string
+def print_rangoli(size):
+    # your code goes here
+    s = []
+    if size > 0 and size < 27:
+        for i in range(size):
+            s.extend(string.ascii_lowercase[i])
+        col = (n*2)-1
+
+        for i in range(len(s)-1, -1, -1):
+            temp = ("-".join(s[i:len(s)]).ljust(col, '-'))
+            temp1 = temp[::-1] + temp[1:]
+            print(temp1)
+
+        for i in range(1, len(s)):
+            temp = ("-".join(s[i:len(s)]).ljust(col, '-'))
+            temp1 = temp[::-1] + temp[1:]
+            print(temp1)
+
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
