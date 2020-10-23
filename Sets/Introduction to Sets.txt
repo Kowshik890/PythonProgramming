@@ -1,0 +1,21 @@
+Problem Name: Introduction to Sets
+
+Link: https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
+
+Solution:
+
+def average(array):
+    # your code goes here
+    output = []
+    sum = 0
+    for x in array:
+        if x not in output:
+            output.append(x)
+            sum = sum + x
+    return sum/len(output)
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
