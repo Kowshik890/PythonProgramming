@@ -21,3 +21,9 @@
 **9.** [String Formatting](https://www.hackerrank.com/challenges/python-string-formatting/problem)
 
 **10.** [Designer Door Mat](https://www.hackerrank.com/challenges/designer-door-mat/problem)
+
+**11.** [Alphabet Rangoli](https://www.hackerrank.com/challenges/alphabet-rangoli/problem)
+
+**12.** [Capitalize!](https://www.hackerrank.com/challenges/capitalize/problem)
+
+**13.** [Merge the Tools!](https://www.hackerrank.com/challenges/merge-the-tools/problem)
