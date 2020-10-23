@@ -1,0 +1,60 @@
+Problem Name: The Minion Game
+
+Link: https://www.hackerrank.com/challenges/the-minion-game/problem
+
+Solution:
+
+# 25.96
+
+def minion_game(str):
+    vowel = 'AEIOU'
+    Kevin  = 0
+    Stuart  = 0
+    for i in range(len(str)):
+        if str[i] in vowel:
+            Kevin += len(str)-i
+        else:
+            Stuart += len(str)-i
+    
+    if Kevin < Stuart:
+        print('Stuart', Stuart)
+    elif Kevin > Stuart:
+        print('Kevin', Kevin)
+    else:
+        print('Draw')
+        
+if __name__ == '__main__':
+    s = input()
+    minion_game(s)
+
+
+########################################################
+
+
+# 0.25
+
+def minion_game(str):
+    temp = []
+    vowel = 'AEIOU'
+    kavin = 0
+    stuart = 0
+    for i in range(len(str)):
+        for j in range(1, len(str)+1):
+            temp.append(str[i:j])
+            temp = list(filter(None, temp))
+    for k in temp:
+        if k[0] in vowel:
+            kavin += 1
+        else:
+            stuart += 1
+    if kavin < stuart:
+        print('Stuart', stuart)
+    elif stuart < kavin:
+        print('Kevin', kavin)
+    else:
+        print('Draw')
+
+
+if __name__ == '__main__':
+    s = input()
+    minion_game(s)
