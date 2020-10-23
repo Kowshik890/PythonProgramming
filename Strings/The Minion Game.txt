@@ -4,10 +4,8 @@ Link: https://www.hackerrank.com/challenges/the-minion-game/problem
 
 Solution:
 
-# 25.96
-
 def minion_game(str):
-    vowel = 'AEIOU'
+    vowel = ['A', 'E', 'I', 'O', 'U']
     Kevin  = 0
     Stuart  = 0
     for i in range(len(str)):

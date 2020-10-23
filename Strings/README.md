@@ -27,3 +27,5 @@
 **12.** [Capitalize!](https://www.hackerrank.com/challenges/capitalize/problem)
 
 **13.** [Merge the Tools!](https://www.hackerrank.com/challenges/merge-the-tools/problem)
+
+**14.** [The Minion Game](https://www.hackerrank.com/challenges/the-minion-game/problem)
