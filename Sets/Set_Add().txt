@@ -1,0 +1,20 @@
+Problem Name: Set.add()
+
+Link: https://www.hackerrank.com/challenges/py-set-add/problem
+
+Solution:
+
+def average(array):
+    output = []
+    for x in array:
+        if x not in output:
+            output.append(x)
+    return len(output)
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = []
+    for i in range(n):
+        arr.append(input())
+    result = average(arr)
+    print(result)
