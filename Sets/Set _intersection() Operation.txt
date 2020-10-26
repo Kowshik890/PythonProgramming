@@ -1,0 +1,11 @@
+Problem Name: Set .intersection() Operation
+
+Link: https://www.hackerrank.com/challenges/py-set-intersection-operation/problem
+
+Solution:
+
+e = int(input())
+Se = set(map(int, input().split()))
+f = int(input())
+Sf = set(map(int, input().split()))
+print(len(Se.intersection(Sf)))

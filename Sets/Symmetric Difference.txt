@@ -1,0 +1,12 @@
+Problem Name: Symmetric Difference
+
+Link: https://www.hackerrank.com/challenges/symmetric-difference/problem
+
+Solution:
+
+m = int(input())
+Sm = set(map(int, input().split()))
+n = int(input())
+Sn = set(map(int, input().split()))
+for i in sorted(Sm.symmetric_difference(Sn)):
+    print(i)

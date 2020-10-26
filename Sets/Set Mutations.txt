@@ -1,0 +1,25 @@
+Problem Name: Set Mutations
+
+Link: https://www.hackerrank.com/challenges/py-set-mutations/problem
+
+Solution:
+
+N = int(input())
+A = set(map(int, input().split()))
+n = int(input())
+for i in range(n):
+    line = input().split()
+    actions, values = line[0], line[1:]
+    updateSet = set(map(int, input().split()))
+    if actions == 'intersection_update':
+        A.intersection_update(updateSet)
+    elif actions == 'update':
+        A.update(updateSet)
+    elif actions == 'symmetric_difference_update':
+        A.symmetric_difference_update(updateSet)
+    elif actions == 'difference_update':
+        A.difference_update(updateSet)
+add = 0
+for j in A:
+    add = add + j
+print(add)

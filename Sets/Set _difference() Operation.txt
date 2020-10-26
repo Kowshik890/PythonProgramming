@@ -1,0 +1,11 @@
+Problem Name: Set .difference() Operation
+
+Link: https://www.hackerrank.com/challenges/py-set-difference-operation/problem
+
+Solution:
+
+e = int(input())
+Se = set(map(int, input().split()))
+f = int(input())
+Sf = set(map(int, input().split()))
+print(len(Se.difference(Sf)))
