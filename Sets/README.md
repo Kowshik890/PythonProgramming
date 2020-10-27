@@ -23,3 +23,5 @@
 **10.** [Check Subset](https://www.hackerrank.com/challenges/py-check-subset/problem)
 
 **11.** [Check Strict Superset](https://www.hackerrank.com/challenges/py-check-strict-superset/problem)
+
+**12.** [The Captain's Room](https://www.hackerrank.com/challenges/py-the-captains-room/problem)
