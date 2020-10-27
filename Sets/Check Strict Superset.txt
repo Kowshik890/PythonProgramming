@@ -1,0 +1,21 @@
+Problem Name: Check Strict Superset
+
+Link: https://www.hackerrank.com/challenges/py-check-strict-superset/problem
+
+Solution:
+
+mainSet_Line = set(map(int, input().split()))
+T = int(input())
+superSet_Line = {}
+count = 0
+for i in range(T):
+    superSet_Line = set(map(int, input().split()))
+
+    if len(mainSet_Line.intersection(superSet_Line)) == len(superSet_Line):
+        count += 1
+    else:
+        count = 0
+if count == T:
+    print(True)
+else:
+    print(False)

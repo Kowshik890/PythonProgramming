@@ -1,0 +1,16 @@
+Problem Name: Check Subset
+
+Link: https://www.hackerrank.com/challenges/py-check-subset/problem
+
+Solution:
+
+T = int(input())
+for i in range(T):
+    subSet_No = int(input())
+    subSet_Line = set(map(int, input().split()))
+    mainSet_No = int(input())
+    mainSet_Line = set(map(int, input().split()))
+    if len(mainSet_Line.intersection(subSet_Line)) == len(subSet_Line):
+        print(True)
+    else:
+        print(False)
