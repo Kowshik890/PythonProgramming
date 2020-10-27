@@ -1,0 +1,18 @@
+Problem Name: The Captain's Room
+
+Link: https://www.hackerrank.com/challenges/py-the-captains-room/problem
+
+Solution:
+
+T = int(input())
+mainSet_Line = input().split()
+uniqueSet = set()
+dupSet = set()
+for i in mainSet_Line:
+    if i in uniqueSet:
+        dupSet.add(i)
+    else:
+        uniqueSet.add(i)
+temp = uniqueSet.difference(dupSet)
+for j in temp:
+    print(j)
