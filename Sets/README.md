@@ -19,3 +19,7 @@
 **8.** [Symmetric Difference](https://www.hackerrank.com/challenges/symmetric-difference/problem)
 
 **9.** [Set Mutations](https://www.hackerrank.com/challenges/py-set-mutations/problem)
+
+**10.** [Check Subset](https://www.hackerrank.com/challenges/py-check-subset/problem)
+
+**11.** [Check Strict Superset](https://www.hackerrank.com/challenges/py-check-strict-superset/problem)
