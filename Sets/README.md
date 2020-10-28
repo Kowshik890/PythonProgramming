@@ -25,3 +25,5 @@
 **11.** [Check Strict Superset](https://www.hackerrank.com/challenges/py-check-strict-superset/problem)
 
 **12.** [The Captain's Room](https://www.hackerrank.com/challenges/py-the-captains-room/problem)
+
+**13.** [No Idea!](https://www.hackerrank.com/challenges/no-idea/problem)
