@@ -1,0 +1,11 @@
+Problem Name: No Idea!
+
+Link: https://www.hackerrank.com/challenges/no-idea/problem
+
+Solution:
+
+n, m = input().split()
+mainSet = input().split()
+ASet = set(input().split())
+BSet = set(input().split())
+print(sum([(i in ASet) - (i in BSet) for i in mainSet]))
