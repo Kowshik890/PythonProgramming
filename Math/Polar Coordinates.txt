@@ -1,0 +1,13 @@
+Problem Name: Polar Coordinates
+
+Link: https://www.hackerrank.com/challenges/polar-coordinates/problem
+
+Solution:
+
+import math
+import cmath
+my_number = complex(input())
+real = pow(my_number.real, 2)
+img = pow(my_number.imag, 2)
+print(math.sqrt(real+img))
+print(cmath.phase(my_number))

@@ -1,0 +1,9 @@
+Problem Name: Integers Come In All Sizes
+
+Link: https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem
+
+Solution:
+
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+sum = pow(a,b) + pow(c, d)
+print(sum)
