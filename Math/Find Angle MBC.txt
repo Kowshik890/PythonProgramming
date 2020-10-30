@@ -1,0 +1,13 @@
+Problem Name: Find Angle MBC
+
+Link: https://www.hackerrank.com/challenges/find-angle/problem
+
+Solution:
+
+import math
+AB, BC = int(input()), int(input())
+Hyp = pow(((AB*AB) + (BC*BC)), 0.5)
+num = (BC*BC) + (Hyp*Hyp) - (AB*AB)
+den = (2*(BC*Hyp))
+angle_C = math.degrees(math.acos(num/den))
+print(str(round(angle_C))+'°')
