@@ -1,0 +1,11 @@
+Problem Name: itertools.permutations()
+
+Link: https://www.hackerrank.com/challenges/itertools-permutations/problem
+
+Solution:
+
+from itertools import permutations
+line = list(map(str, input().split()))
+a, b = sorted(line[0]), int(line[1])
+for j in permutations(a, b):
+    print(''.join(j))

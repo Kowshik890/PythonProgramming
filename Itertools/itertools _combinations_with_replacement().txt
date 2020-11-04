@@ -1,0 +1,11 @@
+Problem Name: itertools.combinations_with_replacement()
+
+Link: https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem
+
+Solution:
+
+from itertools import combinations_with_replacement
+line = list(map(str, input().split()))
+a, b = sorted(line[0]), int(line[1])
+for j in combinations_with_replacement(a, b):
+    print(''.join(j))
