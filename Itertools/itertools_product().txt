@@ -1,0 +1,16 @@
+Problem Name: itertools.product()
+
+Link: https://www.hackerrank.com/challenges/itertools-product/problem
+
+Solution:
+
+from itertools import product
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+temp = list(product(a, b))
+for i in temp:
+    print(i, end=" ")
+	
+========================================
+print(*list(product(A, B)))
+Output: (1, 3) (1, 4) (2, 3) (2, 4)
