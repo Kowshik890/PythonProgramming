@@ -1,0 +1,19 @@
+Problem Name: Compress the String!
+
+Link: https://www.hackerrank.com/challenges/compress-the-string/problem
+
+Solution:
+
+from itertools import groupby
+groups = []
+uniquekeys = []
+counter = []
+for k, g in groupby(input()):
+    groups.append(list(g))    # Store group iterator as a list
+    uniquekeys.append(int(k))
+for i in groups:
+    count = 0
+    for j in i:
+        count += 1
+    counter.append(count)
+print(*list(zip(counter, uniquekeys)))
