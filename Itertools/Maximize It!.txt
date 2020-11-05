@@ -1,0 +1,22 @@
+Problem Name: Maximize It!
+
+Link: https://www.hackerrank.com/challenges/maximize-it/problem
+
+Solution:
+
+from itertools import product
+Line = input().split()
+K = int(Line[0])
+M = int(Line[1])
+temp = []
+Maximum = []
+for i in range(K):
+    temp.append(list(map(int, input().split()[1:])))
+combination = list(product(*temp))
+for iteration in combination:
+    sum = 0
+    for i in iteration:
+        sum = sum + i*i
+        modVal = sum % M
+    Maximum.append(int(modVal))
+print(max(Maximum))

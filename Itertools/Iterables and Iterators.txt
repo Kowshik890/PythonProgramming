@@ -1,0 +1,17 @@
+Problem Name: Iterables and Iterators
+
+Link: https://www.hackerrank.com/challenges/iterables-and-iterators/problem
+
+Solution:
+
+from itertools import combinations
+N = int(input())
+line = list(map(str, input().split()))
+K = int(input())
+temp = list(combinations(line, K))
+count = 0
+for i in temp:
+    if 'a' in i:
+        count += 1
+probability = count / len(temp)
+print("%.12f" % probability)
