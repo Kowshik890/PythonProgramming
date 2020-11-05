@@ -9,3 +9,5 @@
 **3.** [itertools.combinations_with_replacement()](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem)
 
 **4.** [itertools.permutations()](https://www.hackerrank.com/challenges/itertools-permutations/problem)
+
+**5.** [Compress the String!](https://www.hackerrank.com/challenges/compress-the-string/problem)
