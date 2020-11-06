@@ -11,3 +11,7 @@
 **4.** [itertools.permutations()](https://www.hackerrank.com/challenges/itertools-permutations/problem)
 
 **5.** [Compress the String!](https://www.hackerrank.com/challenges/compress-the-string/problem)
+
+**6.** [Iterables and Iterators](https://www.hackerrank.com/challenges/iterables-and-iterators/problem)
+
+**7.** [Maximize It!](https://www.hackerrank.com/challenges/maximize-it/problem)
