@@ -11,3 +11,5 @@
 **4.** [Concatenate](https://www.hackerrank.com/challenges/np-concatenate/problem)
 
 **5.** [Sum and Prod](https://www.hackerrank.com/challenges/np-sum-and-prod/problem)
+
+**5.** [Zeros and Ones](https://www.hackerrank.com/challenges/np-zeros-and-ones/problem)
