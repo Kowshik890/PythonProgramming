@@ -12,4 +12,6 @@
 
 **5.** [Sum and Prod](https://www.hackerrank.com/challenges/np-sum-and-prod/problem)
 
-**5.** [Zeros and Ones](https://www.hackerrank.com/challenges/np-zeros-and-ones/problem)
+**6.** [Zeros and Ones](https://www.hackerrank.com/challenges/np-zeros-and-ones/problem)
+
+**7.** [Min and Max](https://www.hackerrank.com/challenges/np-min-and-max/problem)
