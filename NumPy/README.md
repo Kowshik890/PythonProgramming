@@ -22,4 +22,4 @@
 
 **10.** [Floor, Ceil and Rint](https://www.hackerrank.com/challenges/floor-ceil-and-rint/problem)
 
-**11.** [DArray Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem)
+**11.** [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem)
