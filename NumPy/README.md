@@ -15,3 +15,5 @@
 **6.** [Zeros and Ones](https://www.hackerrank.com/challenges/np-zeros-and-ones/problem)
 
 **7.** [Min and Max](https://www.hackerrank.com/challenges/np-min-and-max/problem)
+
+**8.** [Dot and Cross](https://www.hackerrank.com/challenges/np-dot-and-cross/problem)
