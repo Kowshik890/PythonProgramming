@@ -17,3 +17,9 @@
 **7.** [Min and Max](https://www.hackerrank.com/challenges/np-min-and-max/problem)
 
 **8.** [Dot and Cross](https://www.hackerrank.com/challenges/np-dot-and-cross/problem)
+
+**9.** [Inner and Outer](https://www.hackerrank.com/challenges/np-inner-and-outer/problem)
+
+**10.** [Floor, Ceil and Rint](https://www.hackerrank.com/challenges/floor-ceil-and-rint/problem)
+
+**11.** [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem)
