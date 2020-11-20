@@ -23,3 +23,5 @@
 **10.** [Floor, Ceil and Rint](https://www.hackerrank.com/challenges/floor-ceil-and-rint/problem)
 
 **11.** [Array Mathematics](https://www.hackerrank.com/challenges/np-array-mathematics/problem)
+
+**12.** [Linear Algebra](https://www.hackerrank.com/challenges/np-linear-algebra/problem)
