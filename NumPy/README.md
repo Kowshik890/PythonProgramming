@@ -29,3 +29,5 @@
 **13.** [Eye and Identity](https://www.hackerrank.com/challenges/np-eye-and-identity/problem)
 
 **14.** [Mean, Var, and Std](https://www.hackerrank.com/challenges/np-mean-var-and-std/problem)
+
+**14.** [Polynomials](https://www.hackerrank.com/challenges/np-polynomials/problem)
